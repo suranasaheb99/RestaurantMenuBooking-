@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kavita's Kitchen</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default navbar-expand-lg navbar-light">
+			<div class="container"> <!--two types of container (regular and fluid) || regular container changes width 																				based on width of browser -->
+				<div class="navbar-header"> <!--for better mobile display brand and toogle get grouped-->
+					<a href="index.html" class="float-left d-none d-lg-block d-xl-block">                                         
+						<div id="logo-img" alt="Logo Image">
+							<img src="Images/logo.png">
+						</div>
+					</a>                                                          
+
+					<div class="navbar-brand">
+						<a href="index.html"><h1>Kavita's Kitchen</h1></a>
+						<p>
+							<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-basket-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  								<path fill-rule="evenodd" d="M5.071 1.243a.5.5 0 0 1 .858.514L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 6h1.717L5.07 1.243zM3.5 10.5a.5.5 0 0 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 0 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 0 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 0 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 0 0-1 0v3a.5.5 0 0 0 1 0v-3z"/>
+							</svg>
+							<span>A delightful dine</span>
+						</p>
+					</div>
+					<button class="navbar-toggler" style="margin-left: 94px;" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					    <span class="navbar-toggler-icon"></span>
+					</button>
+						<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					    	<div class="nav navbar-nav" id="nav-list">
+					      		<a class="nav-item nav-link" href="index.html"><span><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  									<path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+  									<path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+								</svg></span><br class="d-none d-sm-block">Home<span class="sr-only"></span></a>
+					      		<a class="nav-item nav-link" href="menu-categories.html"><span><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-menu-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  									<path fill-rule="evenodd" d="M15 3.207v9a1 1 0 0 1-1 1h-3.586A2 2 0 0 0 9 13.793l-1 1-1-1a2 2 0 0 0-1.414-.586H2a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zm-13 11a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-3.586a1 1 0 0 0-.707.293l-1.353 1.354a.5.5 0 0 1-.708 0L6.293 14.5a1 1 0 0 0-.707-.293H2z"/>
+  									<path fill-rule="evenodd" d="M15 5.207H1v1h14v-1zm0 4H1v1h14v-1zm-13-5.5a.5.5 0 0 0 .5.5h6a.5.5 0 1 0 0-1h-6a.5.5 0 0 0-.5.5zm0 4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5zm0 4a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5z"/>
+								</svg></span><br class="d-none d-sm-block">Menu</a>
+					      		<a class="nav-item nav-link" href="footer.html"><span><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-award-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  									<path d="M8 0l1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+  									<path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+								</svg></span><br class="d-none d-sm-block">About</a>
+								<a class="nav-item nav-link" id="phone" href="tel:9586379426"><span><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  									<path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+								</svg></span><br><span class="d-none d-sm-block">9099816821</span></a><div>* We Deliver</div>
+					    	</div>
+					  	</div>
+				</div>
+			</div>	
+		</nav>
+	</header>
+
+	<div id="main-content" class="container">
+		<h2 id="menu-categories-title" class="text-center">Lunch Dine</h2>
+		<div class="text-center">Lunch will be served after 12:00 am</div>
+
+		<section class="row">  <!--for grids-->
+			<div class="menu-item-tile col-md-6">   <!--every row two col-->
+				<div class="row">
+					<div class="col-sm-5">  <!--even single row divided in two-->
+						<div class="menu-item-photo">
+							<div>D01</div>
+							<a href="RAJASTHANI-THALI.html"><img class="img-fluid max-width=100%" width="250" height="150" src="Images/menu.jpg" alt="Item"></a>
+						</div>
+						<div class="menu-item-price">
+							Rs.395<span>12:00pm-03:00pm</span>
+							Rs.495<span>03:00pm-04:00pm</span>
+						</div>
+					</div>	
+					<div class="menu-item-description col-sm-7">
+						<h3 class="menu-item-title">Rajasthani Thali</h3>
+						<p class="menu-item-details">Churma, Gujia, Ghevar, Dal, Baati, Kachori, Dal Pakoda, Missi Roti & Tawa pudi, White rice with Kale Chana ki Kadhi, Panchmel Subzi, Subzi Jaipuri, Dhana wadi/ Mung wadi cilantro curry, Goond ki Ladoo, Chaas and Kesar Malai Lassi</p>
+					</div>
+				</div>
+				<hr class="d-block d-sm-none">
+			</div>
+
+			<div class="menu-item-tile col-md-6">   <!--every row two col-->
+				<div class="row">
+					<div class="col-sm-5">  <!--even single row divided in two-->
+						<div class="menu-item-photo">
+							<div>D02</div>
+							<a href="gujarati_thali.html"><img class="img-fluid max-width=100%" width="250" height="150" src="Images/gujrati-thali.jpg" alt="Item"></a>
+						</div>
+						<div class="menu-item-price">
+							Rs.149<span>12:00pm-03:00pm</span>
+							Rs.199<span>03:00pm-04:00pm</span>
+						</div>
+					</div>	
+					<div class="menu-item-description col-sm-7">
+						<h3 class="menu-item-title">Gujarati Thali</h3>
+						<p class="menu-item-details"> Gujrati Daal, Gujrati Kadhi, 
+						Bateka nu Rasse walu Shaak, Tindoda nu Shaak, Mag, Beet nu raitu, Leele chutney, Kachumber, Edada / Safed Dhokla, Methi na Gota, Shrikhand, Rotli, Bhaat, Papad, Attadu
+						</p>
+					</div>
+				</div>
+				<hr class="d-block d-sm-none">
+			</div>
+			<div class="menu-item-tile col-md-6">   <!--every row two col-->
+				<div class="row">
+					<div class="col-sm-5">  <!--even single row divided in two-->
+						<div class="menu-item-photo">
+							<div>D03</div>
+							<a href="PUNJABI-THALI.html"><img class="img-fluid max-width=100%" width="250" height="150" src="Images/punjabi thali.jpg" alt="Item"></a>
+						</div>
+						<div class="menu-item-price">
+							Rs.295<span>12:00pm-03:00pm</span>
+							Rs.355<span>03:00pm-04:00pm</span>
+						</div>
+					</div>	
+					<div class="menu-item-description col-sm-7">
+						<h3 class="menu-item-title">Punjabi Thali</h3>
+						<p class="menu-item-details"> Amritsari aloo kulcha,Aalo Parantha, Paneer Tikka Masala, Amritsari Masala Chap, Dal tadka, Punjabi chole, Dahi kadhi, Jeera rice, Sweet lassi</p>
+					</div>
+				</div>
+				<hr class="d-block d-sm-none">
+			</div>
+
+			<div class="menu-item-tile col-md-6">   <!--every row two col-->
+				<div class="row">
+					<div class="col-sm-5">  <!--even single row divided in two-->
+						<div class="menu-item-photo">
+							<div>D04</div>
+							<a href="SOUTH-INDIAN-THALI.html"><img class="img-fluid max-width=100%" width="250" height="150" src="Images/telugu-thali.jpg" alt="Item"></a>
+						</div>
+						<div class="menu-item-price">
+							Rs.115<span>12:00pm-03:00pm</span>
+							Rs.175<span>03:00pm-04:00pm</span>
+						</div>
+					</div>	
+					<div class="menu-item-description col-sm-7">
+						<h3 class="menu-item-title">South-Indian Thali</h3>
+						<p class="menu-item-details"> Rice, Ghee, Sambar, Rasam, Paruppu vadai, Vazhakkai varuval, Carrot poriyal, Curd, Rava payasam, Appalam, Pickle</p>
+					</div>
+				</div>
+				<hr class="d-block d-sm-none">
+			</div>
+
+		</section>
+		<h2 id="menu-categories-title" class="text-center">Dinner Dine</h2>
+		<div class="text-center">Dinner will be served after 08:00 pm</div>
+
+		<section class="row">  <!--for grids-->
+			<div class="menu-item-tile col-md-6">   <!--every row two col-->
+				<div class="row">
+					<div class="col-sm-5">  <!--even single row divided in two-->
+						<div class="menu-item-photo">
+							<div>D01</div>
+							<a href="RAJASTHANI-THALI.html"><img class="img-fluid max-width=100%" width="250" height="150" src="Images/menu.jpg" alt="Item"></a>
+						</div>
+						<div class="menu-item-price">
+							Rs.395<span>08:00pm-11:00pm</span>
+							Rs.495<span>11:00pm-12:00pm</span>
+						</div>
+					</div>	
+					<div class="menu-item-description col-sm-7">
+						<h3 class="menu-item-title">Rajasthani Thali</h3>
+						<p class="menu-item-details"> Goond Ki Ladoo, Moong Dhal, Baati, Bajiri Roti, Makki Ki Roti, Panchmel Ki Sabzi, Dhana Moong Wadi, Gatte Ki Kadhi, Matta/ Boondhi Chaas, Kesar Malai Lassi</p>
+					</div>
+				</div>
+				<hr class="d-block d-sm-none">
+			</div>
+
+			<div class="menu-item-tile col-md-6">   <!--every row two col-->
+				<div class="row">
+					<div class="col-sm-5">  <!--even single row divided in two-->
+						<div class="menu-item-photo">
+							<div>D02</div>
+							<a href="gujarati_thali.html"><img class="img-fluid max-width=100%" width="250" height="150" src="Images/gujrati-thali.jpg" alt="Item"></a>
+						</div>
+						<div class="menu-item-price">
+							Rs.395<span>08:00pm-11:00pm</span>
+							Rs.495<span>11:00pm-12:00am</span>
+						</div>
+					</div>	
+					<div class="menu-item-description col-sm-7">
+						<h3 class="menu-item-title">Gujarati Thali</h3>
+						<p class="menu-item-details"> Gujarati Khatta Dhokla, Dhaniya Pudina Chutney,  Gajjar Mirch Ka Sambhaar(Instant Carrot Capsicum Pickle),  Sooji Halwa, Sev Tamatar Ki Sabzi, Aloo Baingan Ki Sabzi,  Lobia Masala, Gujarati Kadhi,  Aamras, Shrikhand, Phulka, Steamed Rice,  Masala Chaas</p>
+					</div>
+				</div>
+				<hr class="d-block d-sm-none">
+			</div>
+			<div class="menu-item-tile col-md-6">   <!--every row two col-->
+				<div class="row">
+					<div class="col-sm-5">  <!--even single row divided in two-->
+						<div class="menu-item-photo">
+							<div>D03</div>
+							<a href="PUNJABI-THALI.html"><img class="img-fluid max-width=100%" width="250" height="150" src="Images/punjabi thali.jpg" alt="Item"></a>
+						</div>
+						<div class="menu-item-price">
+							Rs.295<span>08:00pm-11:00pm</span>
+							Rs.355<span>11:00pm-12:00am</span>
+						</div>
+					</div>	
+					<div class="menu-item-description col-sm-7">
+						<h3 class="menu-item-title">Punjabi Thali</h3>
+						<p class="menu-item-details"> Paneer Tikka With Dahi Ki chutney
+						Phulkas
+						Aloo Paratha
+						Punjabi Chole
+						Dhaba Style Palak Paneer
+						Moongdal Makhni
+						Kada Prasad </p>
+					</div>
+				</div>
+				<hr class="d-block d-sm-none">
+			</div>
+
+			<div class="menu-item-tile col-md-6">   <!--every row two col-->
+				<div class="row">
+					<div class="col-sm-5">  <!--even single row divided in two-->
+						<div class="menu-item-photo">
+							<div>D04</div>
+							<a href="SOUTH-INDIAN-THALI.html"><img class="img-fluid max-width=100%" width="250" height="150" src="Images/telugu-thali.jpg" alt="Item"></a>
+						</div>
+						<div class="menu-item-price">
+							Rs.115<span>08:00pm-11:00pm</span>
+							Rs.175<span>11:00pm-12:00am</span>
+						</div>
+					</div>	
+					<div class="menu-item-description col-sm-7">
+						<h3 class="menu-item-title">South-Indian Thali</h3>
+						<p class="menu-item-details"> Rice
+							Sambar/Kulambu 
+							Rasam 
+							Pumpkin Kootu
+							Potato Fry 
+							Carrot Kosumari
+							Medu Vadai 
+							Fried Papad
+							Curd
+							Mango Pickle
+							Akkaravadisal
+						</p>
+					</div>
+				</div>
+				<hr class="d-block d-sm-none">
+			</div>
+		</section>
+	</div>   <!-- end of main content-->
+
+	<footer class="panel-footer">
+		<div class="container">
+			<div class="row">
+				<section id="hours" class="col-sm-4">
+					<span>Hours:</span><br>
+					Sat-Sun: 12:00pm - 12:00am<br>
+					Mon-Fri: 10:00am - 12:00am<br>
+					<hr class="d-block d-sm-none">
+				</section>
+				<section id="address" class="col-sm-4">
+					<span>Address:</span><br>
+					24
+					Neminath Nagar, Neminath Nagar Society, Parvat Patiya
+					Surat, Gujarat 395010
+					<p>* Delivery area with-in 7-km to 8-km, with minimum order of Rs.145 plus Rs.50 for all deliveries</p>
+					<hr class="d-block d-sm-none">
+				</section>
+				<section id="testimonials" class="col-sm-4">
+					<p>"The best Rajasthani dine! with desi taste."</p>
+					<p>"Amazing food! Great Service! Couidn't ask for more!</p>
+					<p style="color: #557c3e;"><span>Developer</span><br><span style="font-family: 'Lora', serif;"><a href="https://merajatsurana.wordpress.com" target="_blank" style="color: #557c3e;">Rajat Surana<p><a href="tel:9586379426" style="text-decoration: none; color: #557c3e">9099816821</a></p></a></span></p>
+				</section>
+			</div>
+			<div class="text-center">&copy; Copyright Kavita's Kitchen 1996
+			</div>
+		</div>
+	</footer>
+ <script src="js/jquery-341.js"></script>	
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/script.js"></script>
+</body>
+</html>
